@@ -18,7 +18,7 @@ header, footer {
 }
 h1{		display: inline-block;
 		font-family: 'Nunito', sans-serif;
-		color: #FFF
+		color: #FFF;
 		background-color: #0d5ee0;
 		list-style: none;
 	    display: inline-block;
@@ -65,7 +65,7 @@ h1{		display: inline-block;
 	    font-size: 17px;
 	    text-transform: uppercase;
 	    float: right;
-	    margin: 0 0 10px 50px
+	    margin: 0 0 10px 50px;
 }
 
 a {color: #FFF;}
@@ -75,14 +75,13 @@ a {color: #FFF;}
   color: black;
 }
 .contact p {font-family: 'Nunito', sans-serif;
-		color: #FFF
+		color: #FFF;
 		background-color: #0d5ee0;
 		list-style: none;
 	    display: i;
 	    text-transform: uppercase; 
 		align-items: center;
 		right: 20px;
-		float: 
 		margin: 10px;}
 
 /*Main Content Styles*/
