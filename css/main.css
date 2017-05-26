@@ -1,43 +1,103 @@
 /*Universal Styles*/
+
 *{
 	box-sizing: border-box;
 }
 
 /*Header Styles*/
+header, footer {
+		background-color: #0d5ee0;
+		width: 100%;
+		display: inline-block;
+}
+h1{		display: inline-block;
+		font-family: 'Nunito', sans-serif;
+		color: #FFF
+		background-color: #0d5ee0;
+		list-style: none;
+	    display: inline-block;
+	    text-transform: uppercase; 
+		align-items: center;
+		right: 20px;
+		margin: 10px;
+}
 .nav {color: #FFF;
 		font-family: 'Nunito', sans-serif;
 		background-color: #0d5ee0;
-		list-style-type: none; }
+		display: inline-block;
+		text-transform: uppercase; 
+		align-items: center;
+		right: 20px;
+		margin: 10px;
+		float: right;
+    	margin: 0 0 10px 50px;
+
+	}
 
 }
-.nav a{font-family: 'Nunito', sans-serif;
+.nav ul{font-family: 'Nunito', sans-serif;
 		background-color: #0d5ee0;
-		list-style-type: none;
-	float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+		list-style: none;
+	    display: inline-block;
+	    text-align: right;
+	    padding: 20px 20px;
+	    text-decoration: none;
+	    font-size: 17px;
+	    text-transform: uppercase;
+	    float: right;}
 
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Nunito', sans-serif;
+		background-color: #0d5ee0;
+		list-style: none;
+	    display: inline-block;
+	    text-align: right;
+	    padding: 20px 20px;
+	    text-decoration: none;
+	    font-size: 17px;
+	    text-transform: uppercase;
+	    float: right;
+	    margin: 0 0 10px 50px
 }
+
 a {color: #FFF;}
 
 .nav a:hover {
-  background-color: #ddd;
+  background-color: ##0d5ee0;
   color: black;
 }
-
-
+.contact p {font-family: 'Nunito', sans-serif;
+		color: #FFF
+		background-color: #0d5ee0;
+		list-style: none;
+	    display: i;
+	    text-transform: uppercase; 
+		align-items: center;
+		right: 20px;
+		float: 
+		margin: 10px;}
 
 /*Main Content Styles*/
 
 
 /*Footer Styles*/
-footer {color: #FFF;
+.footer {color: #FFF;
 		font-family: 'Nunito', sans-serif;
 		background-color: #0d5ee0;
-		list-style-type: none; }
+		list-style: none;
+		display: inline-block;
+	    text-align: center;
+	    padding: 20px 20px;
+	    font-size: 17px;
+	    text-transform: uppercase;
+	    float: right;
+	    float: right;
+    	margin: 0 0 10px 50px;
+
+}
+header {overflow: hidden;}
 
 
 /*Media Queries*/
