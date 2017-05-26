@@ -4,12 +4,40 @@
 }
 
 /*Header Styles*/
+.nav {color: #FFF;
+		font-family: 'Nunito', sans-serif;
+		background-color: #0d5ee0;
+		list-style-type: none; }
+
+}
+.nav a{font-family: 'Nunito', sans-serif;
+		background-color: #0d5ee0;
+		list-style-type: none;
+	float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+a {color: #FFF;}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 
 
 /*Main Content Styles*/
 
 
 /*Footer Styles*/
+footer {color: #FFF;
+		font-family: 'Nunito', sans-serif;
+		background-color: #0d5ee0;
+		list-style-type: none; }
 
 
 /*Media Queries*/
