@@ -1,15 +1,224 @@
-/*Universal Styles*/
+Universal Styles*/
 *{
 	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	margin: 0;
+}
+a{
+	text-decoration: none;
 }
 
 /*Header Styles*/
 
 
 /*Main Content Styles*/
+div.hero{
+	width: 100%;
+	height:	500px;
+	background-image: url(../images/girls-education.jpg);
+	background-size: cover;
+}
+.wrapper{
+	position: relative;
+	margin: 20px;
+	}
+article{
+	width: 65%;
+	padding-right: 20px;
+	display: inline-block;
+	left: 0;
+}
+article h2{
+	color: #0d5ee0;
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
+	margin: 0;
+}
+article p{
+	color: #4d5768;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin: 0;
+	display: inline-block;
+}
+div.right{
+	width: 30%;
+	height:	100%;
+	margin: 0;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+#donate{
+	display: block;
+	width: 100%;
+	height: 20%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background-color: #d8736c;
+	text-transform: uppercase;
+	border: 2px solid #8e423d;
+	border-radius: 25px;
+	text-align: center;
+}
+#donate:hover{
+	background-color: #ed9690;
+	border-color: #9b4c47;
+}
+#donate h3{
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-size: 35px;
+	font-weight: bolder;
+	margin: 0px;
+	line-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+div.second{
+	width: 100%;
+	height: 75%;
+	background-image: url(../images/classroom_kids_cropped_small.jpg);
+	background-size: cover;
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+}
 
-
+/*Donate Page*/
+.btns{
+	display: block;
+	width: 100%;
+	height: 20%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+#paypal{
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	background-color: #ffd54f;
+	border:	2px solid #bc9721;
+	border-radius: 25px;
+}
+#facebook{
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	background-color: #0d5ee0;
+	border:	2px solid #1c2c93;
+	border-radius: 25px;
+}
+#paypal:hover{
+	background-color: #ffdf77;
+}
+#facebook:hover{
+	background-color: #3c7ee8;
+}
+.btns h4{
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bolder;
+	margin: 0px;
+	line-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+#dancing{
+	background-image: url(../images/dancing.jpg);
+	background-position: center; 
+}
 /*Footer Styles*/
 
 
 /*Media Queries*/
+@media (max-width: 1024px){
+	div.hero{
+		height: 400px;
+	}
+	#paypal{
+		display: block;
+		width: 100%;
+		height: 45%;
+		top: 0
+	}
+	#facebook{
+		display: block;
+		width: 100%;
+		height: 45%;
+		bottom: 0;
+	}
+}
+@media (max-width: 420px){
+	.wrapper{
+		position: static;
+		display: block;
+		margin-bottom: 60px;
+	}
+	div.right{
+		display: block;
+		width: 100%;
+		height: 25px;
+		position: static;
+	}
+	article{
+		width: 100%;
+		height: 70%;
+		display: block;
+		position: static;
+	}
+
+	#donate{
+		position: static;
+		height: 40px;
+		margin: 0;
+		bottom: 0;
+		display: block;
+	}
+	#donate h3{
+		position: static;
+		text-align: center;
+		transform: translate(0,0);
+	}
+	div.second{
+		display: none;
+	}
+	.btns{
+		position: static;
+		display: block;
+	}
+	.btns h4{
+		position: static;
+		text-align: center;
+		transform: translate(0,0);
+	}
+	#paypal{
+		position: static;
+		height: 30px;
+	}
+	#facebook{
+		position: static;
+		height: 30px;
+	}
+
+}
+
+
+
